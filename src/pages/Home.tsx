@@ -181,7 +181,7 @@ const Home = () => {
           ))}
         </div>
 
-        {/* Scroll Indicator */}
+        {/* Scroll Indicator 
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -196,6 +196,7 @@ const Home = () => {
             />
           </div>
         </motion.div>
+        */}
       </section>
 
       {/* Stats Section */}

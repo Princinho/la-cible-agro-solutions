@@ -40,8 +40,8 @@ const Header = () => {
       <div className="container-custom flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center transition-transform group-hover:scale-110">
-            <Leaf className="w-5 h-5 text-primary-foreground" />
+          <div className="w-20 h-15 rounded-full flex items-center justify-center transition-transform group-hover:scale-110">
+            <img src="/src/assets/Gemini_Generated_Image_oyzprjoyzprjoyzp-removebg-preview.png" alt="logo" />
           </div>
           <div className="flex flex-col">
             <span className="font-serif text-xl font-bold text-foreground">
