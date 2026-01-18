@@ -57,17 +57,21 @@ const Header = () => {
             <Link
               key={link.path}
               to={link.path}
-              className={`text-sm font-medium transition-colors hover:text-primary relative ${
-                location.pathname === link.path
-                  ? "text-primary"
-                  : "text-foreground/80"
+              className={`text-sm font-medium transition-colors relative ${
+                isScrolled
+                  ? location.pathname === link.path
+                    ? "text-primary hover:text-primary"
+                    : "text-foreground/80 hover:text-primary"
+                  : location.pathname === link.path
+                    ? "text-white hover:text-white/80"
+                    : "text-white/90 hover:text-white"
               }`}
             >
               {link.label}
               {location.pathname === link.path && (
                 <motion.div
                   layoutId="activeNav"
-                  className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary rounded-full"
+                  className={`absolute -bottom-1 left-0 right-0 h-0.5 rounded-full ${isScrolled ? "bg-primary" : "bg-white"}`}
                 />
               )}
             </Link>
