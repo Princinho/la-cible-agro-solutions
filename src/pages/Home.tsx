@@ -199,17 +199,6 @@ const Home = () => {
         */}
       </section>
 
-      {/* Stats Section */}
-      <section className="section-padding bg-card">
-        <div className="container-custom">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-            {statsData.map((stat, index) => (
-              <StatCard key={stat.id} stat={stat} index={index} />
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* About Preview Section */}
       <section className="section-padding bg-card border-y border-border">
         <div className="container-custom">
@@ -272,6 +261,17 @@ const Home = () => {
                 <div className="text-sm text-primary-foreground/80">Clients accompagnés</div>
               </div>
             </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="section-padding bg-card">
+        <div className="container-custom">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+            {statsData.map((stat, index) => (
+              <StatCard key={stat.id} stat={stat} index={index} />
+            ))}
           </div>
         </div>
       </section>
@@ -351,7 +351,7 @@ const Home = () => {
                 asChild
                 size="lg"
                 variant="outline"
-                className="rounded-full text-base px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                className="rounded-full text-base px-8 bg-primary-foreground/20 border-primary-foreground/50 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
               >
                 <Link to="/contact">Nous contacter</Link>
               </Button>
