@@ -26,15 +26,34 @@ const About = () => {
                 Qui sommes-nous ?
               </h1>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                La Cible SARL est un cabinet de conseil spécialisé en agrobusiness, 
-                fondé en 2021 par <strong className="text-foreground">Apélété</strong>. 
-                Notre mission est d'accompagner les entrepreneurs agricoles, les investisseurs 
-                et les porteurs de projets vers la réussite de leurs exploitations agro-pastorales.
+                La Cible SARL est un cabinet de conseil spécialisé en
+                agrobusiness, fondé en 2021 par{" "}
+                <strong className="text-foreground">Apélété</strong>. La Cible
+                SARL est votre partenaire stratégique pour la réussite de vos
+                projets agricoles et agronomiques. Nous accompagnons les
+                porteurs de projets, exploitants, investisseurs, organisations
+                et institutions dans la conception, la structuration et le
+                développement de projets agricoles rentables, durables et
+                maîtrisés. Notre rôle est simple : vous aider à prendre les
+                bonnes décisions, au bon moment, en vous apportant une expertise
+                technique et stratégique adaptée à vos objectifs et aux réalités
+                du terrain. De l’idée initiale jusqu’à la mise en œuvre
+                opérationnelle, nous sécurisons chaque étape de votre projet
+                pour réduire les risques et maximiser les résultats.  Chez La
+                Cible SARL, nous combinons vision stratégique, analyse précise
+                et accompagnement personnalisé afin de transformer les défis
+                agricoles en opportunités concrètes de croissance. Nous
+                travaillons avec une approche orientée résultats, en mettant
+                l’accent sur la rentabilité, la durabilité et l’impact à long
+                terme. Choisir La Cible SARL, c’est bénéficier d’un partenaire
+                engagé, capable de vous guider avec clarté, rigueur et
+                efficacité pour faire de votre projet agricole un investissement
+                solide et performant.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Avec une présence internationale couvrant l'Afrique, l'Europe, l'Asie 
-                et les États-Unis, nous avons accompagné plus de 3 000 clients dans 
-                la création et la gestion de fermes rentables.
+                Avec une présence internationale couvrant l'Afrique, l'Europe,
+                l'Asie et les États-Unis, nous avons accompagné plus de 3 000
+                clients dans la création et la gestion de fermes rentables.
               </p>
             </motion.div>
 
@@ -74,21 +93,24 @@ const About = () => {
               className="bg-card rounded-2xl p-8 md:p-12 shadow-soft"
             >
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                En 2021, <strong className="text-foreground">Apélété</strong>, 
-                entrepreneur visionnaire et passionné d'agrobusiness, fonde La Cible SARL 
-                avec une conviction forte : l'agriculture africaine possède un potentiel 
-                immense qui ne demande qu'à être exploité de manière professionnelle et durable.
+                En 2021, <strong className="text-foreground">Apélété</strong>,
+                entrepreneur visionnaire et passionné d'agrobusiness, fonde La
+                Cible SARL avec une conviction forte : l'agriculture africaine
+                possède un potentiel immense qui ne demande qu'à être exploité
+                de manière professionnelle et durable.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                Fort de son expérience et de sa connaissance approfondie du secteur 
-                agro-pastoral, Apélété a créé un cabinet capable d'offrir un accompagnement 
-                complet : de la consultation initiale à la gestion opérationnelle des fermes, 
-                en passant par la formation et le conseil stratégique.
+                Fort de son expérience et de sa connaissance approfondie du
+                secteur agro-pastoral, Apélété a créé un cabinet capable
+                d'offrir un accompagnement complet : de la consultation initiale
+                à la gestion opérationnelle des fermes, en passant par la
+                formation et le conseil stratégique.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Aujourd'hui, La Cible SARL est fière d'avoir accompagné plus de 3 000 clients 
-                à travers quatre continents, contribuant ainsi au développement d'une agriculture 
-                moderne, rentable et respectueuse de l'environnement.
+                Aujourd'hui, La Cible SARL est fière d'avoir accompagné plus de
+                3 000 clients à travers quatre continents, contribuant ainsi au
+                développement d'une agriculture moderne, rentable et
+                respectueuse de l'environnement.
               </p>
             </motion.div>
           </div>
@@ -160,16 +182,18 @@ const About = () => {
                 Apélété
               </h2>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                Entrepreneur visionnaire et expert reconnu en agrobusiness, Apélété est 
-                le fondateur et directeur général de La Cible SARL. Sa passion pour 
-                l'agriculture et son engagement envers le développement du secteur 
-                agro-pastoral l'ont conduit à créer ce cabinet en 2021.
+                Entrepreneur visionnaire et expert reconnu en agrobusiness,
+                Apélété est le fondateur et directeur général de La Cible SARL.
+                Sa passion pour l'agriculture et son engagement envers le
+                développement du secteur agro-pastoral l'ont conduit à créer ce
+                cabinet en 2021.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Fort de son expérience internationale et de sa connaissance approfondie 
-                des marchés agricoles, il a guidé plus de 3 000 clients vers le succès. 
-                Son approche pragmatique et sa vision innovante font de lui un leader 
-                respecté dans le domaine de l'agrobusiness.
+                Fort de son expérience internationale et de sa connaissance
+                approfondie des marchés agricoles, il a guidé plus de 3 000
+                clients vers le succès. Son approche pragmatique et sa vision
+                innovante font de lui un leader respecté dans le domaine de
+                l'agrobusiness.
               </p>
               <div className="flex items-center gap-3">
                 <Globe className="w-5 h-5 text-primary" />
@@ -217,7 +241,7 @@ const About = () => {
               Rejoignez les 3 000+ clients qui nous font confiance
             </h2>
             <p className="text-secondary-foreground/80 mb-8">
-              Découvrez comment nous pouvons vous accompagner dans la réussite 
+              Découvrez comment nous pouvons vous accompagner dans la réussite
               de votre projet agro-pastoral.
             </p>
             <Button asChild size="lg" className="btn-accent rounded-full">

@@ -28,12 +28,13 @@ const serviceImages: Record<string, string> = {
 const carouselSlides = [
   {
     image: heroImage,
-    badge: "Cabinet de conseil en agrobusiness • Depuis 2021",
+    //badge: "Cabinet de conseil en agrobusiness • Depuis 2021",
     title: "La Cible SARL, leader en création et en gestion de",
     highlight: "fermes agro-pastorales rentables",
     description:
-      "Fondé par Apélété, notre cabinet accompagne les entrepreneurs agricoles vers la réussite. Plus de 3 000 clients nous font confiance à travers l'Afrique, l'Europe, l'Asie et les États-Unis.",
-  },
+      "De l’idée au terrain, nous accompagnons chaque étape de votre projet agricole.",
+      },
+
   {
     image: heroConsulting,
     badge: "Conseil & Accompagnement personnalisé",
@@ -216,10 +217,12 @@ const Home = () => {
                 Votre partenaire de confiance en agrobusiness
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Fondé en 2021 par Apélété, La Cible SARL est un cabinet spécialisé dans 
-                le conseil, la création et la gestion de fermes agro-pastorales rentables. 
-                Notre expertise couvre l'ensemble du continent africain et s'étend à 
-                l'international.
+                La Cible SARL est votre partenaire stratégique pour la réussite de vos projets agricoles et agronomiques.
+Nous accompagnons les porteurs de projets, exploitants, investisseurs, organisations et institutions dans la conception, la structuration et le développement de projets agricoles rentables, durables et maîtrisés.
+
+Notre rôle est simple : vous aider à prendre les bonnes décisions, au bon moment, en vous apportant une expertise technique et stratégique adaptée à vos objectifs et aux réalités du terrain. De l’idée initiale jusqu’à la mise en œuvre opérationnelle, nous sécurisons chaque étape de votre projet pour réduire les risques et maximiser les résultats.
+
+
               </p>
               <ul className="space-y-3 mb-8">
                 {[

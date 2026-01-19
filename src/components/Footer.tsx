@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-primary-foreground" />
+                <img src="/src/assets/header-logo.png" alt="" />
               </div>
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-bold text-secondary-foreground">
@@ -63,7 +63,7 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-2 text-secondary-foreground/80 text-sm">
                 <MapPin className="w-4 h-4 mt-0.5" />
-                <span>Lomé, Togo<br />Afrique de l'Ouest</span>
+                <span>Lomé, Togo<br /></span>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ const Footer = () => {
               <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-secondary-foreground/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
-                aria-label="LinkedIn"
+                aria-label="Tiktok"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
