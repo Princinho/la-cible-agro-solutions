@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowRight, MessageSquare, Compass, Tractor, GraduationCap, LucideIcon, CheckCircle } from "lucide-react";
+import { ArrowRight, MessageSquare, Compass, Tractor, GraduationCap, LucideIcon, CheckCircle, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SectionTitle from "@/components/SectionTitle";
 import { servicesData, Service } from "@/data/servicesData";
@@ -70,12 +70,26 @@ const ServiceDetailCard = ({ service, index }: { service: Service; index: number
             </li>
           ))}
         </ul>
-        <Button asChild className="btn-primary rounded-full">
-          <Link to="/appointment">
-            Demander ce service
-            <ArrowRight className="ml-2 w-4 h-4" />
-          </Link>
-        </Button>
+        <div className="flex flex-wrap gap-4">
+          <Button asChild className="btn-primary rounded-full">
+            <Link to="/appointment">
+              Demander ce service
+              <ArrowRight className="ml-2 w-4 h-4" />
+            </Link>
+          </Button>
+          {service.pdfFile && (
+            <Button
+              asChild
+              variant="outline"
+              className="rounded-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+            >
+              <a href={service.pdfFile} download target="_blank" rel="noopener noreferrer">
+                <FileDown className="mr-2 w-4 h-4" />
+                {service.pdfLabel || "Télécharger PDF"}
+              </a>
+            </Button>
+          )}
+        </div>
       </div>
     </motion.div>
   );
