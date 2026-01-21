@@ -73,8 +73,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Téléphone / WhatsApp",
-      value: "+228 00 00 00 00",
-      href: "tel:+22800000000",
+      value: "+228 98890471",
+      href: "tel:+22898890471",
     },
     {
       icon: Mail,
