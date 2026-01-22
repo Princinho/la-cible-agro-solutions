@@ -8,7 +8,7 @@ export interface Stat {
 export const statsData: Stat[] = [
   {
     id: "clients",
-    value: "+3000",
+    value: "3000+",
     label: "Clients accompagnés",
     description: "Entrepreneurs et investisseurs guidés vers le succès"
   },
