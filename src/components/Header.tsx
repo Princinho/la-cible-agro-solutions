@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import PaymentDropdown from "@/components/PaymentDropdown";
+import heroLogo from "@/assets/hero-logo.png";
 
 const navLinks = [
   { path: "/", label: "Accueil" },
@@ -40,7 +41,7 @@ const Header = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
           <div className="w-14 h-14 rounded-full bg-white shadow-md flex items-center justify-center overflow-hidden border-2 border-primary/20 transition-transform group-hover:scale-105">
-            <img src="/src/assets/header-logo.png" alt="logo" className="w-10 h-10 object-contain" />
+            <img src={heroLogo} alt="logo" className="w-10 h-10 object-contain" />
           </div>
           <div className="flex flex-col">
             <span className="font-serif text-xl font-bold text-foreground">
