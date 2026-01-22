@@ -251,7 +251,7 @@ const Appointment = () => {
                         type="tel"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+228 00 00 00 00"
+                        placeholder="+228 98890471"
                         className={errors.phone ? "border-destructive" : ""}
                       />
                       {errors.phone && (

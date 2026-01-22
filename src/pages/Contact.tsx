@@ -81,8 +81,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "contact@lacible-sarl.com",
-      href: "mailto:contact@lacible-sarl.com",
+      value: "lacilblesarl01@gmail.com.com",
+      href: "mailto:lacilblesarl01@gmail.com.com",
     },
     {
       icon: MapPin,
