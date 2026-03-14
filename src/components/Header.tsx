@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
-import PaymentDropdown from "@/components/PaymentDropdown";
+import { GraduationCap } from "lucide-react";
 import headerLogo from "@/assets/header-logo.png";
 
 const navLinks = [
