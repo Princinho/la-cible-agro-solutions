@@ -69,7 +69,7 @@ const Formations = () => {
               <SectionTitle
                 subtitle="Excellence académique"
                 title="Des formations adaptées à vos besoins"
-                align="left"
+                centered={false}
               />
               <p className="text-muted-foreground leading-relaxed mb-6">
                 La Cible SARL vous propose des programmes de formation complets pour développer vos compétences et maîtriser les meilleures pratiques en agrobusiness. Nos formations couvrent tous les aspects de l'agriculture moderne et de l'élevage.
