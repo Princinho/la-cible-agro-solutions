@@ -33,12 +33,12 @@ const About = () => {
 
                 Notre rôle est de vous assurer à prendre les bonnes décisions au bon moment en vous apportant une expertise technique et stratégique adaptée à vos objectifs et aux réalités du terrain.<br/><br/>
 
-                De l’idée initiale à la mise en œuvre opérationnelle, nous sécurisons chaque étape de votre projet pour réduire les risques et maximiser les résultats.<br/><br/>
+                De l'idée initiale à la mise en œuvre opérationnelle, nous sécurisons chaque étape de votre projet pour réduire les risques et maximiser les résultats.<br/><br/>
 
                 Chez la Cible,<br/>
                 Nous combinons vision stratégique, analyse précise et accompagnement personnalisé afin de transformer des défis agricoles en opportunités concrètes de croissance.<br/><br/>
 
-                Choisir la Cible, c’est bénéficier d’un partenaire engagé capable de vous guider avec clarté, rigueur et efficacité pour faire de votre projet agricole, un investissement solide et performant<br/><br/>
+                Choisir la Cible, c'est bénéficier d'un partenaire engagé capable de vous guider avec clarté, rigueur et efficacité pour faire de votre projet agricole, un investissement solide et performant<br/><br/>
               </p>
               
               <p className="text-muted-foreground leading-relaxed">
