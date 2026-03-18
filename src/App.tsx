@@ -12,7 +12,6 @@ import Services from "@/pages/Services";
 import Team from "@/pages/Team";
 import Contact from "@/pages/Contact";
 import Appointment from "@/pages/Appointment";
-import Formations from "@/pages/Formations";
 import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
